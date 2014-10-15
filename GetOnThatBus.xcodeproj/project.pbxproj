@@ -14,6 +14,9 @@
 		6CC9F02F19ED9E8100018047 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC9F02E19ED9E8100018047 /* Images.xcassets */; };
 		6CC9F03219ED9E8100018047 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CC9F03019ED9E8100018047 /* LaunchScreen.xib */; };
 		6CC9F03E19ED9E8100018047 /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC9F03D19ED9E8100018047 /* GetOnThatBusTests.m */; };
+		6CC9F04819ED9E9800018047 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC9F04719ED9E9800018047 /* MapKit.framework */; };
+		6CC9F04E19EDA27200018047 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC9F04D19EDA27200018047 /* BusStop.m */; };
+		6CC9F05219EE6BF000018047 /* StopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC9F05119EE6BF000018047 /* StopDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		6CC9F03719ED9E8100018047 /* GetOnThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC9F03C19ED9E8100018047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CC9F03D19ED9E8100018047 /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		6CC9F04719ED9E9800018047 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6CC9F04C19EDA27200018047 /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		6CC9F04D19EDA27200018047 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		6CC9F05019EE6BF000018047 /* StopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopDetailViewController.h; sourceTree = "<group>"; };
+		6CC9F05119EE6BF000018047 /* StopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC9F04819ED9E9800018047 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		6CC9F01519ED9E8100018047 = {
 			isa = PBXGroup;
 			children = (
+				6CC9F04719ED9E9800018047 /* MapKit.framework */,
 				6CC9F02019ED9E8100018047 /* GetOnThatBus */,
 				6CC9F03A19ED9E8100018047 /* GetOnThatBusTests */,
 				6CC9F01F19ED9E8100018047 /* Products */,
@@ -85,6 +95,10 @@
 				6CC9F02619ED9E8100018047 /* AppDelegate.m */,
 				6CC9F02819ED9E8100018047 /* ViewController.h */,
 				6CC9F02919ED9E8100018047 /* ViewController.m */,
+				6CC9F05019EE6BF000018047 /* StopDetailViewController.h */,
+				6CC9F05119EE6BF000018047 /* StopDetailViewController.m */,
+				6CC9F04C19EDA27200018047 /* BusStop.h */,
+				6CC9F04D19EDA27200018047 /* BusStop.m */,
 				6CC9F02B19ED9E8100018047 /* Main.storyboard */,
 				6CC9F02E19ED9E8100018047 /* Images.xcassets */,
 				6CC9F03019ED9E8100018047 /* LaunchScreen.xib */,
@@ -219,7 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC9F04E19EDA27200018047 /* BusStop.m in Sources */,
 				6CC9F02A19ED9E8100018047 /* ViewController.m in Sources */,
+				6CC9F05219EE6BF000018047 /* StopDetailViewController.m in Sources */,
 				6CC9F02719ED9E8100018047 /* AppDelegate.m in Sources */,
 				6CC9F02419ED9E8100018047 /* main.m in Sources */,
 			);
